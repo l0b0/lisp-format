@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 :; exec emacs -Q --script "$0" -- "$@" # -*- emacs-lisp -*-
 ;;; lisp-format --- A tool to format lisp code.  Designed to mimic clang-format.
 
